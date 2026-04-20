@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "xml-00.dtd">
+<direccion>
+    <nombrecompleto>
+        <nombre>Rafael</nombre>
+        <apellido>R C</apellido>
+    </nombrecompleto>
+    <correo>rrojano@ejemplo.com</correo>
+    <telefono>5555512345</telefono>
+    <cumpleaños>
+        <año>1990</año>
+        <mes>5</mes>
+        <día>15</día>
+    </cumpleaños>
+</direccion>

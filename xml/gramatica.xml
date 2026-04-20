@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "xml-01.dtd">
+<restaurante>
+    <nombre>El Buen Sabor</nombre>
+    <ubicacion>
+        <calle>Av. Principal</calle>
+        <numero>123</numero>
+        <ciudad>Xalapa</ciudad>
+        <pais>Mexico</pais>
+    </ubicacion>
+    <empleados>
+        <empleado>
+            <nombrecompleto>
+                <nombre>Rafael</nombre>
+                <apellido>R C</apellido>
+            </nombrecompleto>
+            <correo>rafael@elbunsabor.com</correo>
+        </empleado>
+        <empleado>
+            <nombrecompleto>
+                <nombre>María</nombre>
+                <apellido>G L</apellido>
+            </nombrecompleto>
+            <correo>maria@elbunsabor.com</correo>
+        </empleado>
+    </empleados>
+    <contacto>
+        <telefono>5555555555</telefono>
+        <correo>info@elbunsabor.com</correo>
+    </contacto>
+</restaurante>
+
