@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT restaurante (nombre, ubicacion, empleados, contacto)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT ubicacion (calle, numero, ciudad, pais)>
-<!ELEMENT calle (#PCDATA)>
-<!ELEMENT numero (#PCDATA)>
-<!ELEMENT ciudad (#PCDATA)>
-<!ELEMENT pais (#PCDATA)>
-<!ELEMENT empleados (empleado*)>
-<!ELEMENT empleado (nombrecompleto, correo)>
-<!ELEMENT nombrecompleto (nombre, apellido)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT apellido (#PCDATA)>
-<!ELEMENT correo (#PCDATA)>
-<!ELEMENT contacto (telefono, correo)>
-<!ELEMENT telefono (#PCDATA)>
+<!DOCTYPE restaurantes[
+    <!ELEMENT restaurantes (restaurante*)>
+	<!ELEMENT restaurante (nombreRes, ubicacion, empleados, contacto)>
+	<!ELEMENT nombreRes (#PCDATA)>
+	<!ELEMENT ubicacion (calle, numero, ciudad, pais)>
+	<!ELEMENT calle (#PCDATA)>
+	<!ELEMENT numero (#PCDATA)>
+	<!ELEMENT ciudad (#PCDATA)>
+	<!ELEMENT pais (#PCDATA)>
+	<!ELEMENT empleados (empleado*)>
+	<!ELEMENT empleado (nombrecompleto, correo)>
+	<!ELEMENT nombrecompleto (nombre, apellido)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT apellido (#PCDATA)>
+	<!ELEMENT correo (#PCDATA)>
+	<!ELEMENT contacto (telefono, correo)>
+    <!ELEMENT telefono (#PCDATA)>
+]>
