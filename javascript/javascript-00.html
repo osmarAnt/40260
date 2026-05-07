@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a">TITULO</h1>
+    <p id="b">Esto es un parrafo</p>
+    <button id="c" onclick="escribe()">Hola</button>
+    <input type="text">
+
+    <br>
+    
+<script>
+    //esto es un comentario javascript
+   //const elemento = "cadenas"
+   //var elemento = 0
+
+
+   let elemento = [1,2,3,4]
+   console.log(elemento);
+    console.log(elemento[0]);
+for (const key in elemento) {
+    if (Object.hasOwnProperty.call(elemento, key)) {
+        const element = elemento[key];
+        console.log("forin "+ element);
+    }
+}
+
+
+    function saludar(){
+        console.log("Hola mundo");
+    }
+    for(let i=0;i<10;i++)
+        if(i>0){
+            console.log("hola mundo");
+        }
+    boton = document.getElementById("c");
+    console.log(boton);
+    saludar();
+    function escribe(){
+    // acceso al dom
+    console.log(document);
+    const html = document.getElementById("b");
+    console.log(html.innerText);
+    html.innerText = "Esto es un Nuevo texto";
+    
+    //recuperar informacion del imput
+    
+    let entrada = document.getElementsByTagName("input");
+    console.log(entrada[0].value);
+    html.innerText= entrada[0].value;
+    // for (const key in entrada) {
+    //     if (Object.hasOwnProperty.call(entrada, key)) {
+    //         const element = entrada[key];
+    //         console.log(element);
+    //     }
+    // }
+    }
+    let color = document.getElementById("d")
+    color.addEventListener("click",cambiaColor)
+    function cambiaColor(){
+        let entrada = document.getElementsByTagName("input")
+        let titulo = document.getElementById("a")
+        titulo.style.color = entrada[0].value
+    }
+
+</script>
+
+</body>
+</html>

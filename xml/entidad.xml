@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+    <!ELEMENT note (to, from, heading, (body|image), footer?)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT footer (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+    <!ELEMENT image (#PCDATA)>
+    <!ENTITY nbsp "&#xA0">
+    <!ENTITY writer "Writter: Donald Duck,">
+    <!ENTITY copyright "Copyright: W3Schools.com,">
+    <!ATTLIST body color ID #IMPLIED>
+    <!ATTLIST body saludo (hola|hi|salve|konichiwa) "hola">
+]>
+
+<note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body color="blue" ID="1" saludo="s">Don't forget me this weekend!</body>
+
+</note>

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+button{
+    width: 33px;
+    height: 33px;
+}
+button[id="b0"]{
+    width: 100%;
+    color:red;
+}
+div{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    height: 33px;
+    width: 100px;
+}
